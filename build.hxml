@@ -1,0 +1,14 @@
+-cp src
+-D analyzer-optimize
+--library utest
+-main test.Main
+--each
+--js bin/js/main.js
+--next
+--python bin/python/main.py
+--next
+--cs bin/cs
+--next
+--java bin/java
+--next
+--cpp bin/cpp
